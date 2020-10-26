@@ -132,17 +132,6 @@ struct mqtt_ack {
     unsigned short pkt_id;
 };
 
-/* TO-DO: 
-        PUBACK
-        PUBREC
-        PUBREL
-        PUBCOMP
-        UNSUBACK
-        PINGREQ
-        PINGRESP
-        DISCONNECT
-*/
-
 typedef struct mqtt_ack mqtt_puback;
 typedef struct mqtt_ack mqtt_pubrec;
 typedef struct mqtt_ack mqtt_pubrel;
